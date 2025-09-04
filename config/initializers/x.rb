@@ -4,10 +4,10 @@ require 'x'
 
 # Load X API credentials from environment variables for security
 x_credentials = {
-  api_key:             ENV['X_API_KEY'],
-  api_key_secret:      ENV['X_API_KEY_SECRET'],
-  access_token:        ENV['X_ACCESS_TOKEN'],
-  access_token_secret: ENV['X_ACCESS_TOKEN_SECRET'],
+  api_key:             ENV['X_API_KEY_2'],
+  api_key_secret:      ENV['X_API_KEY_SECRET_2'],
+  access_token:        ENV['X_ACCESS_TOKEN_2'],
+  access_token_secret: ENV['X_ACCESS_TOKEN_SECRET_2'],
   # bearer_token: ENV['X_BEARER_TOKEN']
 }
 
@@ -136,4 +136,4 @@ Rails.logger.info 'Tweet deleted successfully'
 #     WOEID = 2459115
 
 #     X_CLIENT.get("trends/by/woeid/#{WOEID}")
-    
+   
