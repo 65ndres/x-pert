@@ -60,6 +60,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "x", "~> 0.16.0"
+gem "x", "~> 0.17.0"
 
 gem "typhoeus", "~> 1.5"
